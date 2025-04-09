@@ -1,10 +1,30 @@
-[
-    {
-        "username": "Yusif barmil",
-        "password": "mohd"
-    },
-    {
-        "username": "eslam barmil",
-        "password": "mohd"
-    }
-]
+{
+    "students": [
+      {
+        "username": "kareem",
+        "password": "123",
+        "name": "John Doe",
+        "completed": [
+          {"course": "Web Basics", "grade": "A"},
+          {"course": "Intro to Programming", "grade": "B+"}
+        ],
+        "inProgress": ["JavaScript Fundamentals"],
+        "pending": ["Database Systems"]
+      }
+    ],
+    "instructors": [
+      {
+        "username": "prof_smith",
+        "password": "teach456",
+        "name": "Dr. Jane Smith",
+        "expertise": ["Programming", "Algorithms"]
+      }
+    ],
+    "admins": [
+      {
+        "username": "admin1",
+        "password": "secure789",
+        "department": "Computer Science"
+      }
+    ]
+  }

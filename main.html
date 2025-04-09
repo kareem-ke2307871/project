@@ -4,21 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background: #f0f2f5;
-        }
-        h1 {
-            color: #2c3e50;
-            margin-bottom: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styleM.css">
 </head>
 <body>
-    <h1>Welcome to the Student Portal!</h1>
-    <p>Successfully logged in.</p>
+
+    <nav class="main-nav">
+        <div class="button-container">
+            <button class="learning-path-btn" id="learningPathBtn">📚 Learning Path</button>
+            <span class="helper-text"> Click to see your learning path</span>
+        </div>
+    </nav>
+
+
+    <div class="learning-path-sidebar" id="learningPathSidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <h2>Your Learning Path</h2>
+                <button class="close-btn" id="closeSidebar">×</button>
+            </div>
+            <div class="learning-sections">
+                <div class="learning-category">
+                    <h3>Completed Courses</h3>
+                    <div id="completedCourses"></div>
+                </div>
+                <div class="learning-category">
+                    <h3>In Progress</h3>
+                    <div id="inProgressCourses"></div>
+                </div>
+                <div class="learning-category">
+                    <h3>Pending Courses</h3>
+                    <div id="pendingCourses"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <h1>Available Courses</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by course name or category...">
+        </div>
+
+        <div class="courses-grid" id="coursesContainer">
+            
+        </div>
+    </div>
+
+
+    
+
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
