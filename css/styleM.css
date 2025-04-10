@@ -110,11 +110,11 @@ h1 {
 
 
 .main-nav {
-    top: 20px;
-    left: 20px;
+    width: 50%vh;
+    height: 50%vh;
     display: flex;
     justify-content: space-around;
-
+    border-radius: 50px;
 }
 
 .logout-btn {
@@ -140,6 +140,11 @@ h1 {
 .logout-btn:active {
     transform: translateY(0);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Slide-Header{
+    position: relative;
+    margin-top: 1.5rem;
 }
 
 .learning-path-btn {
@@ -172,7 +177,7 @@ h1 {
 
 .close-btn {
     position: absolute;
-    top: 15px;
+    top: -6px;
     right: 20px;
     background: none;
     border: none;
@@ -269,6 +274,8 @@ h1 {
         padding: 10px 20px;
         font-size: 0.9rem;
     }
+
+    
 }
 
 .course-item {
@@ -341,5 +348,43 @@ h1 {
     }
     50% {
         transform: translateX(-5px);
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .main-nav {
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0;
+    }
+
+    .button-container {
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        padding: 0.3rem 0;
+    }
+
+    .helper-text {
+        display: none !important;
+    }
+
+    .learning-path-btn,
+    .logout-btn {
+        width: 100%;
+        max-width: 200px;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .button-container:last-child {
+        order: -1; 
     }
 }

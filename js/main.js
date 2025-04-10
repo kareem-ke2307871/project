@@ -113,8 +113,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 document.getElementById('logoutBtn').addEventListener('click', () => {
-    // Clear user session
+    
     localStorage.removeItem('currentUser');
-    // Redirect to login page
+    
     window.location.href = 'index.html';
 });
