@@ -112,6 +112,34 @@ h1 {
 .main-nav {
     top: 20px;
     left: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.logout-btn {
+    top: 20px;
+    left: 20px;
+    background: linear-gradient(135deg, #f4f5f7 0%, #9d99a1 100%);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+    font-size: 1rem;
+}
+
+.logout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.logout-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .learning-path-btn {
@@ -299,7 +327,7 @@ h1 {
 @keyframes slideIn {
     from {
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateX(20px);            /*we didn't really take this but i found it and looked cool so i used it */
     }
     to {
         opacity: 1;
