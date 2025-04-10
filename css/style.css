@@ -13,6 +13,51 @@ body {
     align-items: center;
 }
 
+.decorative-shapes {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: -50px;
+    right: -50px;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: -50px;
+    left: -50px;
+}
+.circle3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    bottom: -50px;
+    right: -50px;
+}
+
+.circle4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    bottom: -50px;
+    left: -50px;
+}
+
+
 .login-container {
     background: rgba(255, 255, 255, 0.95);
     padding: 2rem 3rem;

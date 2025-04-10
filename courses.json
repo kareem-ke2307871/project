@@ -6,6 +6,12 @@
         "duration": "6 weeks"
     },
     {
+        "name": "Next.js for Beginners",
+        "category": "Web Development",
+        "description": "A comprehensive introduction to Next.js, a React framework for server-side rendering.",
+        "duration": "4 weeks"
+    },
+    {
         "name": "Object-Oriented Programming",
         "category": "Programming",
         "description": "Master OOP concepts with practical examples in Java and Python.",

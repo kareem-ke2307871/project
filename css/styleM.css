@@ -168,7 +168,7 @@ h1 {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Learning Path Sidebar */
+
 .learning-path-sidebar {
     position: fixed;
     left: -350px;
@@ -205,19 +205,19 @@ h1 {
     position: relative;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1;
-    margin: 80px auto 2rem; /* Add top margin */
+    margin: 80px auto 2rem; 
 }
 
 .main-container.sidebar-open {
     transform: translateX(350px);
 }
 
-/* When sidebar is open, move button too */
+
 .learning-path-sidebar.active + .main-nav .learning-path-btn {
     left: 370px;
 }
 
-/* Mobile Responsiveness */
+
 @media (max-width: 768px) {
     .learning-path-sidebar {
         width: 100%;

@@ -49,7 +49,7 @@ document.addEventListener('click', (e) => {
 function populateLearningPath() {
     const studentData = currentUser;
     
-    // Completed Courses
+    
     document.getElementById('completedCourses').innerHTML = studentData.completed
         .map(course => `
             <div class="course-item completed">
@@ -57,7 +57,7 @@ function populateLearningPath() {
             </div>
         `).join('');
     
-    // In Progress
+    
     document.getElementById('inProgressCourses').innerHTML = studentData.inProgress
         .map(course => `
             <div class="course-item in-progress">
@@ -65,7 +65,7 @@ function populateLearningPath() {
             </div>
         `).join('');
     
-    // Pending
+    
     document.getElementById('pendingCourses').innerHTML = studentData.pending
         .map(course => `
             <div class="course-item pending">
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error loading courses:', error);
     }
 
-    // Search functionality
+    
     searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.toLowerCase();
         const filteredCourses = courses.filter(course => 
