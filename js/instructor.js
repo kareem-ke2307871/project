@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     window.submitGrades = function(classId) {
         const feedback = document.getElementById(`feedback-${classId}`);
         feedback.style.display = 'block';
-        setTimeout(() => feedback.style.display = 'none', 2000);
+         setTimeout(() => feedback.style.display = 'none', 2000);   //<--- to be honest that is new for me i had to look it up and understand it
         
         
         console.log('Grades submitted for class:', classId);
