@@ -19,20 +19,31 @@
         {"course": "Web Basics", "grade": "A"}
       ],
       "inProgress": ["JavaScript Fundamentals"]
+    },
+    {
+      "username": "Eslam",
+      "password": "eslam123",
+      "name": "Eslam",
+      "completed": [
+        {"course": "Database Systems", "grade": "A"},
+        {"course": "Web Basics", "grade": "A"}
+      ],
+      "inProgress": ["JavaScript Fundamentals"],
+      "pending": ["Next.js for Beginners"]
     }
   ],
   "instructors": [
     {
       "username": "prof_smith",
       "password": "teach456",
-      "name": "Dr. Jane Smith",
+      "name": "Dr. Will Smith",
       "expertise": ["Programming", "Algorithms"],
       "classes": [
         {
           "id": "C101",
           "name": "JavaScript Fundamentals",
           "students": [
-            {"id": "S001", "name": "Kareem", "grade": 85},
+            {"id": "S001", "name": "Kareem", "grade": null},
             {"id": "S002", "name": "Yusif", "grade": null}
           ]
         },
@@ -40,8 +51,15 @@
           "id": "C102",
           "name": "Web Basics",
           "students": [
-            {"id": "S001", "name": "Kareem", "grade": "A"},
-            {"id": "S002", "name": "Yusif", "grade": "A"}
+            {"id": "S001", "name": "Kareem", "grade": null},
+            {"id": "S002", "name": "Yusif", "grade": null}
+          ]
+        },
+        {
+          "id": "C103",
+          "name": "Database Systems",
+          "students": [
+            {"id": "S003", "name": "Eslam", "grade": null}
           ]
         }
       ]
