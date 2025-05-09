@@ -1,75 +1,75 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// // This is your Prisma schema file,
+// // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-generator client {
-  provider = "prisma-client-js"
-}
+// generator client {
+//   provider = "prisma-client-js"
+// }
 
-datasource db {
-  provider = "sqlite"
-  url      = env("DATABASE_URL")
-}
+// datasource db {
+//   provider = "sqlite"
+//   url      = env("DATABASE_URL")
+// }
 
-// "students": [
-//     {
-//       "username": "kareem",
-//       "password": "123",
-//       "name": "Kareem",
-//       "completed": [
-//         {"course": "Web Basics", "grade": "A"},
-//         {"course": "Intro to Programming", "grade": "B+"}
-//       ],
-//       "inProgress": ["JavaScript Fundamentals"],
-//       "pending": ["Database Systems"]
-//     },
+// // "students": [
+// //     {
+// //       "username": "kareem",
+// //       "password": "123",
+// //       "name": "Kareem",
+// //       "completed": [
+// //         {"course": "Web Basics", "grade": "A"},
+// //         {"course": "Intro to Programming", "grade": "B+"}
+// //       ],
+// //       "inProgress": ["JavaScript Fundamentals"],
+// //       "pending": ["Database Systems"]
+// //     },
 
-// schema.prisma
+// // schema.prisma
 
-model user {
-  id         Int              @id @default(autoincrement())
-  username   String           @unique
-  password   String
-  name       String
-  completed  CompletedCourse[]
-  inProgress CourseEnrollment[]
-  pending    PendingCourse[]
-}
+// model user {
+//   id         Int              @id @default(autoincrement())
+//   username   String           @unique
+//   password   String
+//   name       String
+//   completed  CompletedCourse[]
+//   inProgress CourseEnrollment[]
+//   pending    PendingCourse[]
+// }
 
-model course {
-  id          Int               @id @default(autoincrement())
-  name        String            @unique
-  category    String
-  description String
-  duration    String
-  completedBy CompletedCourse[]
-  inProgress  CourseEnrollment[]
-  pendingBy   PendingCourse[]
-}
+// model course {
+//   id          Int               @id @default(autoincrement())
+//   name        String            @unique
+//   category    String
+//   description String
+//   duration    String
+//   completedBy CompletedCourse[]
+//   inProgress  CourseEnrollment[]
+//   pendingBy   PendingCourse[]
+// }
 
-// Join table for completed courses with grade
-model CompletedCourse {
-  id        Int     @id @default(autoincrement())
-  student   user @relation(fields: [studentId], references: [id])
-  studentId Int
-  course    course  @relation(fields: [courseId], references: [id])
-  courseId  Int
-  grade     String
-}
+// // Join table for completed courses with grade
+// model CompletedCourse {
+//   id        Int     @id @default(autoincrement())
+//   student   user @relation(fields: [studentId], references: [id])
+//   studentId Int
+//   course    course  @relation(fields: [courseId], references: [id])
+//   courseId  Int
+//   grade     String
+// }
 
-// Join table for in-progress courses
-model CourseEnrollment {
-  id        Int     @id @default(autoincrement())
-  student   user @relation(fields: [studentId], references: [id])
-  studentId Int
-  course    course  @relation(fields: [courseId], references: [id])
-  courseId  Int
-}
+// // Join table for in-progress courses
+// model CourseEnrollment {
+//   id        Int     @id @default(autoincrement())
+//   student   user @relation(fields: [studentId], references: [id])
+//   studentId Int
+//   course    course  @relation(fields: [courseId], references: [id])
+//   courseId  Int
+// }
 
-// Join table for pending courses
-model PendingCourse {
-  id        Int     @id @default(autoincrement())
-  student   user @relation(fields: [studentId], references: [id])
-  studentId Int
-  course    course  @relation(fields: [courseId], references: [id])
-  courseId  Int
-}
+// // Join table for pending courses
+// model PendingCourse {
+//   id        Int     @id @default(autoincrement())
+//   student   user @relation(fields: [studentId], references: [id])
+//   studentId Int
+//   course    course  @relation(fields: [courseId], references: [id])
+//   courseId  Int
+// }
