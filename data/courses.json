@@ -1,0 +1,290 @@
+[
+    {
+        "name": "JavaScript Fundamentals",
+        "category": "Programming",
+        "description": "Learn the basics of JavaScript programming language including variables, functions, and DOM manipulation.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Next.js for Beginners",
+        "category": "Web Development",
+        "description": "A comprehensive introduction to Next.js, a React framework for server-side rendering.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Object-Oriented Programming",
+        "category": "Programming",
+        "description": "Master OOP concepts with practical examples in Java and Python.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Database Systems",
+        "category": "Databases",
+        "description": "Introduction to relational databases and SQL programming.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Web Development Basics",
+        "category": "Web Development",
+        "description": "HTML, CSS, and JavaScript for modern web development.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "Advanced Python",
+        "category": "Programming",
+        "description": "Deep dive into Python programming with advanced topics.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "React Native Mobile Development",
+        "category": "Mobile Development",
+        "description": "Build cross-platform mobile apps using React Native.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Data Structures & Algorithms",
+        "category": "Computer Science",
+        "description": "Essential algorithms and data structures for technical interviews.",
+        "duration": "12 weeks"
+    },
+    {
+        "name": "Cloud Computing with AWS",
+        "category": "DevOps",
+        "description": "Introduction to AWS services like EC2, S3, and Lambda.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "UI/UX Design Principles",
+        "category": "Design",
+        "description": "Learn wireframing, prototyping, and user research.",
+        "duration": "5 weeks"
+    },
+    {
+        "name": "Machine Learning Basics",
+        "category": "Data Science",
+        "description": "Introduction to ML models using Python and scikit-learn.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "Cybersecurity Fundamentals",
+        "category": "Security",
+        "description": "Ethical hacking, encryption, and network security.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Docker & Kubernetes",
+        "category": "DevOps",
+        "description": "Containerization and orchestration tools for scalable apps.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Blockchain Development",
+        "category": "Web3",
+        "description": "Build smart contracts with Solidity and Ethereum.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Game Development with Unity",
+        "category": "Game Dev",
+        "description": "Create 2D/3D games using Unity and C#.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "iOS Development with Swift",
+        "category": "Mobile Development",
+        "description": "Build iOS apps using Swift and Xcode.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Android Development (Kotlin)",
+        "category": "Mobile Development",
+        "description": "Develop Android apps with Kotlin and Jetpack.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "GraphQL APIs",
+        "category": "Web Development",
+        "description": "Design efficient APIs with GraphQL.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "DevOps CI/CD Pipelines",
+        "category": "DevOps",
+        "description": "Automate deployments with Jenkins and GitHub Actions.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Natural Language Processing",
+        "category": "Data Science",
+        "description": "Text analysis and chatbots with NLP techniques.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "TensorFlow for Deep Learning",
+        "category": "Data Science",
+        "description": "Neural networks and deep learning with TensorFlow.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "Rust Programming",
+        "category": "Programming",
+        "description": "Systems programming with Rust.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Flutter for Cross-Platform Apps",
+        "category": "Mobile Development",
+        "description": "Build apps for iOS/Android with Flutter.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Ethical Hacking",
+        "category": "Security",
+        "description": "Penetration testing and vulnerability assessment.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "Quantum Computing Basics",
+        "category": "Computer Science",
+        "description": "Introduction to qubits and quantum algorithms.",
+        "duration": "12 weeks"
+    },
+    {
+        "name": "AR/VR Development",
+        "category": "Game Dev",
+        "description": "Create augmented/virtual reality experiences.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "WebAssembly",
+        "category": "Web Development",
+        "description": "High-performance web apps with WebAssembly.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Microservices Architecture",
+        "category": "Backend Development",
+        "description": "Design scalable systems with microservices.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Go Programming",
+        "category": "Programming",
+        "description": "Concurrent programming with Go (Golang).",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Computer Vision",
+        "category": "Data Science",
+        "description": "Image recognition with OpenCV and PyTorch.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Functional Programming (Haskell)",
+        "category": "Programming",
+        "description": "Immutable data and pure functions in Haskell.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Linux System Administration",
+        "category": "DevOps",
+        "description": "Manage servers and bash scripting.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Elixir & Phoenix Framework",
+        "category": "Web Development",
+        "description": "Scalable web apps with Elixir.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Big Data with Hadoop",
+        "category": "Data Science",
+        "description": "Process large datasets using Hadoop and Spark.",
+        "duration": "10 weeks"
+    },
+    {
+        "name": "Svelte Framework",
+        "category": "Web Development",
+        "description": "Build reactive apps with Svelte.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Embedded Systems (C/C++)",
+        "category": "Hardware",
+        "description": "Program microcontrollers and IoT devices.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Web3.js & Ethereum DApps",
+        "category": "Web3",
+        "description": "Decentralized apps on the Ethereum blockchain.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Kotlin for Backend",
+        "category": "Backend Development",
+        "description": "Server-side development with Kotlin.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "GIS Mapping Applications",
+        "category": "Data Science",
+        "description": "Geospatial data analysis with Python.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Chaos Engineering",
+        "category": "DevOps",
+        "description": "Resilience testing for distributed systems.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Julia for Scientific Computing",
+        "category": "Data Science",
+        "description": "High-performance numerical computing.",
+        "duration": "6 weeks"
+    },
+    {
+        "name": "Deno Runtime",
+        "category": "Backend Development",
+        "description": "Secure JavaScript/TypeScript runtime.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Low-Code Development",
+        "category": "Web Development",
+        "description": "Build apps with platforms like OutSystems.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Digital Forensics",
+        "category": "Security",
+        "description": "Investigate cybercrimes and recover data.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Web Accessibility (a11y)",
+        "category": "Web Development",
+        "description": "Design inclusive web experiences.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Real-Time Systems (C++)",
+        "category": "Hardware",
+        "description": "Time-sensitive applications in C++.",
+        "duration": "8 weeks"
+    },
+    {
+        "name": "Progressive Web Apps (PWAs)",
+        "category": "Web Development",
+        "description": "Offline-capable web apps.",
+        "duration": "4 weeks"
+    },
+    {
+        "name": "Agile & Scrum Certification",
+        "category": "Project Management",
+        "description": "Lead Agile teams effectively.",
+        "duration": "4 weeks"
+    }
+]

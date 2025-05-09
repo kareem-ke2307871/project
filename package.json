@@ -16,5 +16,14 @@
     "url": "https://github.com/kareem-ke2307871/project/issues"
   },
   "homepage": "https://github.com/kareem-ke2307871/project#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.7.0"
+  },
+  "type": "module"
 }
+
