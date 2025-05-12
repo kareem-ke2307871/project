@@ -1,0 +1,845 @@
+{
+  "students": [
+    {
+      "username": "student1",
+      "password": "pass1",
+      "name": "Student 1",
+      "completed": [
+        {"course": "JavaScript Fundamentals", "grade": "A"}
+      ],
+      "inProgress": ["Next.js for Beginners"],
+      "pending": ["Database Systems"]
+    },
+    {
+      "username": "student2",
+      "password": "pass2",
+      "name": "Student 2",
+      "completed": [
+        {"course": "Web Development Basics", "grade": "B+"}
+      ],
+      "inProgress": ["Object-Oriented Programming"],
+      "pending": ["Advanced Python"]
+    },
+    {
+      "username": "student3",
+      "password": "pass3",
+      "name": "Student 3",
+      "completed": [
+        {"course": "Database Systems", "grade": "A-"}
+      ],
+      "inProgress": ["React Native Mobile Development"],
+      "pending": ["Data Structures & Algorithms"]
+    },
+    {
+      "username": "student4",
+      "password": "pass4",
+      "name": "Student 4",
+      "completed": [
+        {"course": "Cloud Computing with AWS", "grade": "B"}
+      ],
+      "inProgress": ["UI/UX Design Principles"],
+      "pending": ["Machine Learning Basics"]
+    },
+    {
+      "username": "student5",
+      "password": "pass5",
+      "name": "Student 5",
+      "completed": [
+        {"course": "Cybersecurity Fundamentals", "grade": "A"}
+      ],
+      "inProgress": ["Docker & Kubernetes"],
+      "pending": ["Blockchain Development"]
+    },
+    {
+      "username": "student6",
+      "password": "pass6",
+      "name": "Student 6",
+      "completed": [
+        {"course": "Game Development with Unity", "grade": "B+"}
+      ],
+      "inProgress": ["iOS Development with Swift"],
+      "pending": ["Android Development (Kotlin)"]
+    },
+    {
+      "username": "student7",
+      "password": "pass7",
+      "name": "Student 7",
+      "completed": [
+        {"course": "GraphQL APIs", "grade": "A-"}
+      ],
+      "inProgress": ["DevOps CI/CD Pipelines"],
+      "pending": ["Natural Language Processing"]
+    },
+    {
+      "username": "student8",
+      "password": "pass8",
+      "name": "Student 8",
+      "completed": [
+        {"course": "TensorFlow for Deep Learning", "grade": "A"}
+      ],
+      "inProgress": ["Rust Programming"],
+      "pending": ["Flutter for Cross-Platform Apps"]
+    },
+    {
+      "username": "student9",
+      "password": "pass9",
+      "name": "Student 9",
+      "completed": [
+        {"course": "Ethical Hacking", "grade": "B+"}
+      ],
+      "inProgress": ["Quantum Computing Basics"],
+      "pending": ["AR/VR Development"]
+    },
+    {
+      "username": "student10",
+      "password": "pass10",
+      "name": "Student 10",
+      "completed": [
+        {"course": "WebAssembly", "grade": "A-"}
+      ],
+      "inProgress": ["Microservices Architecture"],
+      "pending": ["Go Programming"]
+    },
+    
+    {
+      "username": "student11",
+      "password": "pass11",
+      "name": "Student 11",
+      "completed": [
+        {"course": "Computer Vision", "grade": "B"}
+      ],
+      "inProgress": ["Functional Programming (Haskell)"],
+      "pending": ["Linux System Administration"]
+    },
+    {
+      "username": "student12",
+      "password": "pass12",
+      "name": "Student 12",
+      "completed": [
+        {"course": "Elixir & Phoenix Framework", "grade": "A"}
+      ],
+      "inProgress": ["Big Data with Hadoop"],
+      "pending": ["Svelte Framework"]
+    },
+    {
+      "username": "student13",
+      "password": "pass13",
+      "name": "Student 13",
+      "completed": [
+        {"course": "Embedded Systems (C/C++)", "grade": "B+"}
+      ],
+      "inProgress": ["Web3.js & Ethereum DApps"],
+      "pending": ["Kotlin for Backend"]
+    },
+    {
+      "username": "student14",
+      "password": "pass14",
+      "name": "Student 14",
+      "completed": [
+        {"course": "GIS Mapping Applications", "grade": "A-"}
+      ],
+      "inProgress": ["Chaos Engineering"],
+      "pending": ["Julia for Scientific Computing"]
+    },
+    {
+      "username": "student15",
+      "password": "pass15",
+      "name": "Student 15",
+      "completed": [
+        {"course": "Deno Runtime", "grade": "A"}
+      ],
+      "inProgress": ["Low-Code Development"],
+      "pending": ["Digital Forensics"]
+    },
+    {
+      "username": "student16",
+      "password": "pass16",
+      "name": "Student 16",
+      "completed": [
+        {"course": "Web Accessibility (a11y)", "grade": "B+"}
+      ],
+      "inProgress": ["Real-Time Systems (C++)"],
+      "pending": ["Progressive Web Apps (PWAs)"]
+    },
+    {
+      "username": "student17",
+      "password": "pass17",
+      "name": "Student 17",
+      "completed": [
+        {"course": "Agile & Scrum Certification", "grade": "A-"}
+      ],
+      "inProgress": ["JavaScript Fundamentals"],
+      "pending": ["Next.js for Beginners"]
+    },
+    {
+      "username": "student18",
+      "password": "pass18",
+      "name": "Student 18",
+      "completed": [
+        {"course": "Object-Oriented Programming", "grade": "B"}
+      ],
+      "inProgress": ["Database Systems"],
+      "pending": ["Web Development Basics"]
+    },
+    {
+      "username": "student19",
+      "password": "pass19",
+      "name": "Student 19",
+      "completed": [
+        {"course": "Advanced Python", "grade": "A"}
+      ],
+      "inProgress": ["React Native Mobile Development"],
+      "pending": ["Data Structures & Algorithms"]
+    },
+    {
+      "username": "student20",
+      "password": "pass20",
+      "name": "Student 20",
+      "completed": [
+        {"course": "UI/UX Design Principles", "grade": "B+"}
+      ],
+      "inProgress": ["Cloud Computing with AWS"],
+      "pending": ["Machine Learning Basics"]
+    },
+    {
+      "username": "student21",
+      "password": "pass21",
+      "name": "Student 21",
+      "completed": [
+        {"course": "Game Development with Unity", "grade": "A-"}
+      ],
+      "inProgress": ["iOS Development with Swift"],
+      "pending": ["Android Development (Kotlin)"]
+    },
+    {
+      "username": "student22",
+      "password": "pass22",
+      "name": "Student 22",
+      "completed": [
+        {"course": "GraphQL APIs", "grade": "B"}
+      ],
+      "inProgress": ["DevOps CI/CD Pipelines"],
+      "pending": ["Natural Language Processing"]
+    },
+    {
+      "username": "student23",
+      "password": "pass23",
+      "name": "Student 23",
+      "completed": [
+        {"course": "TensorFlow for Deep Learning", "grade": "A"}
+      ],
+      "inProgress": ["Rust Programming"],
+      "pending": ["Flutter for Cross-Platform Apps"]
+    },
+    {
+      "username": "student24",
+      "password": "pass24",
+      "name": "Student 24",
+      "completed": [
+        {"course": "Ethical Hacking", "grade": "B+"}
+      ],
+      "inProgress": ["Quantum Computing Basics"],
+      "pending": ["AR/VR Development"]
+    },
+    {
+      "username": "student25",
+      "password": "pass25",
+      "name": "Student 25",
+      "completed": [
+        {"course": "WebAssembly", "grade": "A-"}
+      ],
+      "inProgress": ["Microservices Architecture"],
+      "pending": ["Go Programming"]
+    },
+    {
+      "username": "student26",
+      "password": "pass26",
+      "name": "Student 26",
+      "completed": [
+        {"course": "Computer Vision", "grade": "B"}
+      ],
+      "inProgress": ["Functional Programming (Haskell)"],
+      "pending": ["Linux System Administration"]
+    },
+    {
+      "username": "student27",
+      "password": "pass27",
+      "name": "Student 27",
+      "completed": [
+        {"course": "Elixir & Phoenix Framework", "grade": "A"}
+      ],
+      "inProgress": ["Big Data with Hadoop"],
+      "pending": ["Svelte Framework"]
+    },
+    {
+      "username": "student28",
+      "password": "pass28",
+      "name": "Student 28",
+      "completed": [
+        {"course": "Embedded Systems (C/C++)", "grade": "B+"}
+      ],
+      "inProgress": ["Web3.js & Ethereum DApps"],
+      "pending": ["Kotlin for Backend"]
+    },
+    {
+      "username": "student29",
+      "password": "pass29",
+      "name": "Student 29",
+      "completed": [
+        {"course": "GIS Mapping Applications", "grade": "A-"}
+      ],
+      "inProgress": ["Chaos Engineering"],
+      "pending": ["Julia for Scientific Computing"]
+    },
+    {
+      "username": "student30",
+      "password": "pass30",
+      "name": "Student 30",
+      "completed": [
+        {"course": "Deno Runtime", "grade": "A"}
+      ],
+      "inProgress": ["Low-Code Development"],
+      "pending": ["Digital Forensics"]
+    },
+    {
+      "username": "student31",
+      "password": "pass31",
+      "name": "Student 31",
+      "completed": [
+        {"course": "Web Accessibility (a11y)", "grade": "B+"}
+      ],
+      "inProgress": ["Real-Time Systems (C++)"],
+      "pending": ["Progressive Web Apps (PWAs)"]
+    },
+    {
+      "username": "student32",
+      "password": "pass32",
+      "name": "Student 32",
+      "completed": [
+        {"course": "Agile & Scrum Certification", "grade": "A-"}
+      ],
+      "inProgress": ["JavaScript Fundamentals"],
+      "pending": ["Next.js for Beginners"]
+    },
+    {
+      "username": "student33",
+      "password": "pass33",
+      "name": "Student 33",
+      "completed": [
+        {"course": "Object-Oriented Programming", "grade": "B"}
+      ],
+      "inProgress": ["Database Systems"],
+      "pending": ["Web Development Basics"]
+    },
+    {
+      "username": "student34",
+      "password": "pass34",
+      "name": "Student 34",
+      "completed": [
+        {"course": "Advanced Python", "grade": "A"}
+      ],
+      "inProgress": ["React Native Mobile Development"],
+      "pending": ["Data Structures & Algorithms"]
+    },
+    {
+      "username": "student35",
+      "password": "pass35",
+      "name": "Student 35",
+      "completed": [
+        {"course": "UI/UX Design Principles", "grade": "B+"}
+      ],
+      "inProgress": ["Cloud Computing with AWS"],
+      "pending": ["Machine Learning Basics"]
+    },
+    {
+      "username": "student36",
+      "password": "pass36",
+      "name": "Student 36",
+      "completed": [
+        {"course": "Game Development with Unity", "grade": "A-"}
+      ],
+      "inProgress": ["iOS Development with Swift"],
+      "pending": ["Android Development (Kotlin)"]
+    },
+    {
+      "username": "student37",
+      "password": "pass37",
+      "name": "Student 37",
+      "completed": [
+        {"course": "GraphQL APIs", "grade": "B"}
+      ],
+      "inProgress": ["DevOps CI/CD Pipelines"],
+      "pending": ["Natural Language Processing"]
+    },
+    {
+      "username": "student38",
+      "password": "pass38",
+      "name": "Student 38",
+      "completed": [
+        {"course": "TensorFlow for Deep Learning", "grade": "A"}
+      ],
+      "inProgress": ["Rust Programming"],
+      "pending": ["Flutter for Cross-Platform Apps"]
+    },
+    {
+      "username": "student39",
+      "password": "pass39",
+      "name": "Student 39",
+      "completed": [
+        {"course": "Ethical Hacking", "grade": "B+"}
+      ],
+      "inProgress": ["Quantum Computing Basics"],
+      "pending": ["AR/VR Development"]
+    },
+    {
+      "username": "student40",
+      "password": "pass40",
+      "name": "Student 40",
+      "completed": [
+        {"course": "WebAssembly", "grade": "A-"}
+      ],
+      "inProgress": ["Microservices Architecture"],
+      "pending": ["Go Programming"]
+    },
+    {
+      "username": "student41",
+      "password": "pass41",
+      "name": "Student 41",
+      "completed": [
+        {"course": "Computer Vision", "grade": "B"}
+      ],
+      "inProgress": ["Functional Programming (Haskell)"],
+      "pending": ["Linux System Administration"]
+    },
+    {
+      "username": "student42",
+      "password": "pass42",
+      "name": "Student 42",
+      "completed": [
+        {"course": "Elixir & Phoenix Framework", "grade": "A"}
+      ],
+      "inProgress": ["Big Data with Hadoop"],
+      "pending": ["Svelte Framework"]
+    },
+    {
+      "username": "student43",
+      "password": "pass43",
+      "name": "Student 43",
+      "completed": [
+        {"course": "Embedded Systems (C/C++)", "grade": "B+"}
+      ],
+      "inProgress": ["Web3.js & Ethereum DApps"],
+      "pending": ["Kotlin for Backend"]
+    },
+    {
+      "username": "student44",
+      "password": "pass44",
+      "name": "Student 44",
+      "completed": [
+        {"course": "GIS Mapping Applications", "grade": "A-"}
+      ],
+      "inProgress": ["Chaos Engineering"],
+      "pending": ["Julia for Scientific Computing"]
+    },
+    {
+      "username": "student45",
+      "password": "pass45",
+      "name": "Student 45",
+      "completed": [
+        {"course": "Deno Runtime", "grade": "A"}
+      ],
+      "inProgress": ["Low-Code Development"],
+      "pending": ["Digital Forensics"]
+    },
+    {
+      "username": "student46",
+      "password": "pass46",
+      "name": "Student 46",
+      "completed": [
+        {"course": "Web Accessibility (a11y)", "grade": "B+"}
+      ],
+      "inProgress": ["Real-Time Systems (C++)"],
+      "pending": ["Progressive Web Apps (PWAs)"]
+    },
+    {
+      "username": "student47",
+      "password": "pass47",
+      "name": "Student 47",
+      "completed": [
+        {"course": "Agile & Scrum Certification", "grade": "A-"}
+      ],
+      "inProgress": ["JavaScript Fundamentals"],
+      "pending": ["Next.js for Beginners"]
+    },
+    {
+      "username": "student48",
+      "password": "pass48",
+      "name": "Student 48",
+      "completed": [
+        {"course": "Object-Oriented Programming", "grade": "B"}
+      ],
+      "inProgress": ["Database Systems"],
+      "pending": ["Web Development Basics"]
+    },
+    {
+      "username": "student49",
+      "password": "pass49",
+      "name": "Student 49",
+      "completed": [
+        {"course": "Advanced Python", "grade": "A"}
+      ],
+      "inProgress": ["React Native Mobile Development"],
+      "pending": ["Data Structures & Algorithms"]
+    },
+    {
+      "username": "student50",
+      "password": "pass50",
+      "name": "Student 50",
+      "completed": [
+        {"course": "UI/UX Design Principles", "grade": "B+"}
+      ],
+      "inProgress": ["Cloud Computing with AWS"],
+      "pending": ["Machine Learning Basics"]
+    },
+    {
+      "username": "student51",
+      "password": "pass51",
+      "name": "Student 51",
+      "completed": [
+        {"course": "Game Development with Unity", "grade": "A-"}
+      ],
+      "inProgress": ["iOS Development with Swift"],
+      "pending": ["Android Development (Kotlin)"]
+    },
+    {
+      "username": "student52",
+      "password": "pass52",
+      "name": "Student 52",
+      "completed": [
+        {"course": "GraphQL APIs", "grade": "B"}
+      ],
+      "inProgress": ["DevOps CI/CD Pipelines"],
+      "pending": ["Natural Language Processing"]
+    },
+    {
+      "username": "student53",
+      "password": "pass53",
+      "name": "Student 53",
+      "completed": [
+        {"course": "TensorFlow for Deep Learning", "grade": "A"}
+      ],
+      "inProgress": ["Rust Programming"],
+      "pending": ["Flutter for Cross-Platform Apps"]
+    },
+    {
+      "username": "student54",
+      "password": "pass54",
+      "name": "Student 54",
+      "completed": [
+        {"course": "Ethical Hacking", "grade": "B+"}
+      ],
+      "inProgress": ["Quantum Computing Basics"],
+      "pending": ["AR/VR Development"]
+    },
+    {
+      "username": "student55",
+      "password": "pass55",
+      "name": "Student 55",
+      "completed": [
+        {"course": "WebAssembly", "grade": "A-"}
+      ],
+      "inProgress": ["Microservices Architecture"],
+      "pending": ["Go Programming"]
+    },
+    {
+      "username": "student56",
+      "password": "pass56",
+      "name": "Student 56",
+      "completed": [
+        {"course": "Computer Vision", "grade": "B"}
+      ],
+      "inProgress": ["Functional Programming (Haskell)"],
+      "pending": ["Linux System Administration"]
+    },
+    {
+      "username": "student57",
+      "password": "pass57",
+      "name": "Student 57",
+      "completed": [
+        {"course": "Elixir & Phoenix Framework", "grade": "A"}
+      ],
+      "inProgress": ["Big Data with Hadoop"],
+      "pending": ["Svelte Framework"]
+    },
+    {
+      "username": "student58",
+      "password": "pass58",
+      "name": "Student 58",
+      "completed": [
+        {"course": "Embedded Systems (C/C++)", "grade": "B+"}
+      ],
+      "inProgress": ["Web3.js & Ethereum DApps"],
+      "pending": ["Kotlin for Backend"]
+    },
+    {
+      "username": "student59",
+      "password": "pass59",
+      "name": "Student 59",
+      "completed": [
+        {"course": "GIS Mapping Applications", "grade": "A-"}
+      ],
+      "inProgress": ["Chaos Engineering"],
+      "pending": ["Julia for Scientific Computing"]
+    },
+    {
+      "username": "student60",
+      "password": "pass60",
+      "name": "Student 60",
+      "completed": [
+        {"course": "Deno Runtime", "grade": "A"}
+      ],
+      "inProgress": ["Low-Code Development"],
+      "pending": ["Digital Forensics"]
+        },
+        {
+      "username": "student61",
+      "password": "pass61",
+      "name": "Student 61",
+      "completed": [
+        {"course": "Web Accessibility (a11y)", "grade": "B+"}
+      ],
+      "inProgress": ["Real-Time Systems (C++)"],
+      "pending": ["Progressive Web Apps (PWAs)"]
+        },
+        {
+      "username": "student62",
+      "password": "pass62",
+      "name": "Student 62",
+      "completed": [
+        {"course": "Agile & Scrum Certification", "grade": "A-"}
+      ],
+      "inProgress": ["JavaScript Fundamentals"],
+      "pending": ["Next.js for Beginners"]
+        },
+        {
+      "username": "student63",
+      "password": "pass63",
+      "name": "Student 63",
+      "completed": [
+        {"course": "Object-Oriented Programming", "grade": "B"}
+      ],
+      "inProgress": ["Database Systems"],
+      "pending": ["Web Development Basics"]
+        },
+        {
+      "username": "student64",
+      "password": "pass64",
+      "name": "Student 64",
+      "completed": [
+        {"course": "Advanced Python", "grade": "A"}
+      ],
+      "inProgress": ["React Native Mobile Development"],
+      "pending": ["Data Structures & Algorithms"]
+        },
+        {
+      "username": "student65",
+      "password": "pass65",
+      "name": "Student 65",
+      "completed": [
+        {"course": "UI/UX Design Principles", "grade": "B+"}
+      ],
+      "inProgress": ["Cloud Computing with AWS"],
+      "pending": ["Machine Learning Basics"]
+        },
+        {
+      "username": "student66",
+      "password": "pass66",
+      "name": "Student 66",
+      "completed": [
+        {"course": "Game Development with Unity", "grade": "A-"}
+      ],
+      "inProgress": ["iOS Development with Swift"],
+      "pending": ["Android Development (Kotlin)"]
+        },
+        {
+      "username": "student67",
+      "password": "pass67",
+      "name": "Student 67",
+      "completed": [
+        {"course": "GraphQL APIs", "grade": "B"}
+      ],
+      "inProgress": ["DevOps CI/CD Pipelines"],
+      "pending": ["Natural Language Processing"]
+        },
+        {
+      "username": "student68",
+      "password": "pass68",
+      "name": "Student 68",
+      "completed": [
+        {"course": "TensorFlow for Deep Learning", "grade": "A"}
+      ],
+      "inProgress": ["Rust Programming"],
+      "pending": ["Flutter for Cross-Platform Apps"]
+        },
+        {
+      "username": "student69",
+      "password": "pass69",
+      "name": "Student 69",
+      "completed": [
+        {"course": "Ethical Hacking", "grade": "B+"}
+      ],
+      "inProgress": ["Quantum Computing Basics"],
+      "pending": ["AR/VR Development"]
+        },
+        {
+      "username": "student70",
+      "password": "pass70",
+      "name": "Student 70",
+      "completed": [
+        {"course": "WebAssembly", "grade": "A-"}
+      ],
+      "inProgress": ["Microservices Architecture"],
+      "pending": ["Go Programming"]
+        },
+        {
+          "username": "student71",
+          "password": "pass71",
+          "name": "Student 71",
+          "completed": [
+          {"course": "Computer Vision", "grade": "B"}
+          ],
+          "inProgress": ["Functional Programming (Haskell)"],
+          "pending": ["Linux System Administration"]
+        },
+        {
+          "username": "student72",
+          "password": "pass72",
+          "name": "Student 72",
+          "completed": [
+          {"course": "Elixir & Phoenix Framework", "grade": "A"}
+          ],
+          "inProgress": ["Big Data with Hadoop"],
+          "pending": ["Svelte Framework"]
+        },
+        {
+          "username": "student73",
+          "password": "pass73",
+          "name": "Student 73",
+          "completed": [
+          {"course": "Embedded Systems (C/C++)", "grade": "B+"}
+          ],
+          "inProgress": ["Web3.js & Ethereum DApps"],
+          "pending": ["Kotlin for Backend"]
+        },
+        {
+          "username": "student74",
+          "password": "pass74",
+          "name": "Student 74",
+          "completed": [
+          {"course": "GIS Mapping Applications", "grade": "A-"}
+          ],
+          "inProgress": ["Chaos Engineering"],
+          "pending": ["Julia for Scientific Computing"]
+        },
+        {
+          "username": "student75",
+          "password": "pass75",
+          "name": "Student 75",
+          "completed": [
+          {"course": "Deno Runtime", "grade": "A"}
+          ],
+          "inProgress": ["Low-Code Development"],
+          "pending": ["Digital Forensics"]
+        },
+        {
+          "username": "student76",
+          "password": "pass76",
+          "name": "Student 76",
+          "completed": [
+          {"course": "Web Accessibility (a11y)", "grade": "B+"}
+          ],
+          "inProgress": ["Real-Time Systems (C++)"],
+          "pending": ["Progressive Web Apps (PWAs)"]
+        },
+        {
+          "username": "student77",
+          "password": "pass77",
+          "name": "Student 77",
+          "completed": [
+          {"course": "Agile & Scrum Certification", "grade": "A-"}
+          ],
+          "inProgress": ["JavaScript Fundamentals"],
+          "pending": ["Next.js for Beginners"]
+        },
+        {
+          "username": "student78",
+          "password": "pass78",
+          "name": "Student 78",
+          "completed": [
+          {"course": "Object-Oriented Programming", "grade": "B"}
+          ],
+          "inProgress": ["Database Systems"],
+          "pending": ["Web Development Basics"]
+        },
+        {
+          "username": "student79",
+          "password": "pass79",
+          "name": "Student 79",
+          "completed": [
+          {"course": "Advanced Python", "grade": "A"}
+          ],
+          "inProgress": ["React Native Mobile Development"],
+          "pending": ["Data Structures & Algorithms"]
+        },
+        {
+          "username": "student80",
+          "password": "pass80",
+          "name": "Student 80",
+          "completed": [
+          {"course": "UI/UX Design Principles", "grade": "B+"}
+          ],
+          "inProgress": ["Cloud Computing with AWS"],
+          "pending": ["Machine Learning Basics"]
+        }
+  ],
+  "instructors": [
+    {
+      "username": "prof_smith",
+      "password": "teach456",
+      "name": "Dr. Will Smith",
+      "expertise": ["Programming", "Algorithms"],
+      "classes": [
+        {
+          "id": "C101",
+          "name": "JavaScript Fundamentals",
+          "students": [
+            {"id": "S001", "name": "Kareem", "grade": null},
+            {"id": "S002", "name": "Yusif", "grade": null}
+          ]
+        },
+        {
+          "id": "C102",
+          "name": "Web Basics",
+          "students": [
+            {"id": "S001", "name": "Kareem", "grade": null},
+            {"id": "S002", "name": "Yusif", "grade": null}
+          ]
+        },
+        {
+          "id": "C103",
+          "name": "Database Systems",
+          "students": [
+            {"id": "S003", "name": "Eslam", "grade": null}
+          ]
+        }
+      ]
+    }
+  ],
+  "admins": [
+    {
+      "username": "admin1",
+      "password": "secure789",
+      "department": "Computer Science"
+    }
+  ]
+}
