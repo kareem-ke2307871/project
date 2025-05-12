@@ -118,3 +118,8 @@ document.getElementById('logoutBtn').addEventListener('click', () => {
     
     window.location.href = 'index.html';
 });
+
+document.getElementById('statsBtn').addEventListener('click', () => {
+    
+    window.location.href = 'stats.html';
+});
