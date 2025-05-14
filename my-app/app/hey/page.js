@@ -116,7 +116,7 @@ export default function StatsPage() {
   if (error) {
     return (
       <h1 style={{ textAlign: 'center' }}>
-        Error loading data. Please check users.json.
+        Error loading data.
       </h1>
     );
   }

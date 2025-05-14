@@ -31,9 +31,9 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
                 case 'instructor':
                     window.location.href = 'instructor_dashboard.html';
                     break;
-                case 'admin':
-                    window.location.href = 'admin_dashboard.html';
-                    break;
+                // case 'admin':
+                //     window.location.href = 'admin_dashboard.html';
+                //     break;
                 default:
                     throw new Error('Unknown user role');
             }

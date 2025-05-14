@@ -46,7 +46,7 @@
 //   pendingBy   PendingCourse[]
 // }
 
-// // Join table for completed courses with grade
+
 // model CompletedCourse {
 //   id        Int     @id @default(autoincrement())
 //   student   user @relation(fields: [studentId], references: [id])

@@ -15,7 +15,8 @@
       "password": "pass2",
       "name": "Student 2",
       "completed": [
-        {"course": "Web Development Basics", "grade": "B+"}
+        {"course": "Web Development Basics", "grade": "B+"},
+        {"course": "HTML & CSS", "grade": "A"}
       ],
       "inProgress": ["Object-Oriented Programming"],
       "pending": ["Advanced Python"]
